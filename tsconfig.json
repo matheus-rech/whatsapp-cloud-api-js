@@ -10,10 +10,10 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "types": [
-      "node",
-      "vitest"
+      "node"
     ],
     "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
     "lib": [
       "ES2022",
       "DOM"
@@ -21,7 +21,6 @@
   },
   "include": [
     "src",
-    "tests",
     "tsdown.config.ts"
   ]
 }
